@@ -4,6 +4,8 @@
 #include "State.hpp"
 #include "Game.hpp"
 
+#include "AI.hpp";
+
 namespace Sonar
 {
     class GameState : public State
@@ -38,5 +40,9 @@ namespace Sonar
         
         int turn;
         int gameState;
+        
+        AI *ai;
+        
+        sf::Clock _clock;
     };
 }

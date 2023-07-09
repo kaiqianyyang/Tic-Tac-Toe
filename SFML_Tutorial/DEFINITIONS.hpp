@@ -42,7 +42,7 @@
 #define STATE_AI_PLAYING 93
 #define STATE_DRAW 92
 
-
+#define TIME_BEFORE_SHOWING_GAME_OVER 3
 
 
 

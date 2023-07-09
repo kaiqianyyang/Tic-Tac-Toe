@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98CBEEE62A5A31DA003ABFFD /* AI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98CBEEE42A5A31DA003ABFFD /* AI.cpp */; };
 		98ED393C2A4D190600192B15 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98ED393B2A4D190600192B15 /* main.cpp */; };
 		98ED39472A4D1B3800192B15 /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 98ED39432A4D1B3800192B15 /* libsfml-system.2.5.1.dylib */; };
 		98ED39482A4D1B3800192B15 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 98ED39442A4D1B3800192B15 /* libsfml-window.2.5.1.dylib */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		98CBEEE42A5A31DA003ABFFD /* AI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AI.cpp; sourceTree = "<group>"; };
+		98CBEEE52A5A31DA003ABFFD /* AI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AI.hpp; sourceTree = "<group>"; };
 		98ED39382A4D190600192B15 /* SFML_Tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SFML_Tutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		98ED393B2A4D190600192B15 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		98ED39432A4D1B3800192B15 /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.5.1_2/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 			children = (
 				98ED393B2A4D190600192B15 /* main.cpp */,
 				98ED395C2A4DE2C700192B15 /* MainMenuState.cpp */,
+				98CBEEE42A5A31DA003ABFFD /* AI.cpp */,
+				98CBEEE52A5A31DA003ABFFD /* AI.hpp */,
 				98ED395D2A4DE2C700192B15 /* MainMenuState.hpp */,
 				98ED395F2A4DF98800192B15 /* GameState.cpp */,
 				98ED39602A4DF98800192B15 /* GameState.hpp */,
@@ -196,6 +201,7 @@
 				98ED39642A4DFC0500192B15 /* PauseState.cpp in Sources */,
 				98ED39612A4DF98800192B15 /* GameState.cpp in Sources */,
 				98ED39542A4D4F9200192B15 /* InputManager.cpp in Sources */,
+				98CBEEE62A5A31DA003ABFFD /* AI.cpp in Sources */,
 				98ED39512A4D4C3000192B15 /* AssetManager.cpp in Sources */,
 				98ED395B2A4DDD4300192B15 /* SplashState.cpp in Sources */,
 				98ED393C2A4D190600192B15 /* main.cpp in Sources */,
